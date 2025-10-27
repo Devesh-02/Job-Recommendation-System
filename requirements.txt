@@ -1,13 +1,12 @@
-Requirements libraries 
-pandas
-numpy
-scikit-learn
-nltk
-textblob
-matplotlib
-seaborn
-plotly
-streamlit
-joblib
-scipy
+streamlit==1.38.0
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.3.2
+nltk==3.8.1
+textblob==0.17.1
+joblib==1.4.2
+matplotlib==3.8.3
+seaborn==0.13.2
+plotly==5.24.1
+scipy==1.13.1
 
