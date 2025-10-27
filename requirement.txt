@@ -1,0 +1,12 @@
+Requirements libraries 
+pandas
+numpy
+scikit-learn
+nltk
+textblob
+matplotlib
+seaborn
+plotly
+streamlit
+joblib
+scipy
