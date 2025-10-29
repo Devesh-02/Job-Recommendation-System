@@ -29,7 +29,7 @@ def clean_text(text):
 
 # Load Job Dataset
 
-df = pd.read_csv("Jobs dataset.csv")
+df = pd.read_csv("jobs_dataset.csv")
 df["clean_job_title"] = df["job_title"].astype(str).apply(clean_text)
 df["clean_job_description"] = df["job_description"].astype(str).apply(clean_text)
 
@@ -70,4 +70,5 @@ if st.button("Find Jobs"):
         st.write("No jobs found matching your criteria.")
     else:
         st.table(results)
+
 
